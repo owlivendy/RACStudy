@@ -13,6 +13,7 @@
 		8FD5E1282022A7D700AB52E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD5E1272022A7D700AB52E5 /* Assets.xcassets */; };
 		8FD5E12B2022A7D700AB52E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD5E1292022A7D700AB52E5 /* LaunchScreen.storyboard */; };
 		8FD5E12E2022A7D700AB52E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD5E12D2022A7D700AB52E5 /* main.m */; };
+		8FDFE4CA2031348D0071DDB4 /* Section1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDFE4C92031348D0071DDB4 /* Section1Controller.m */; };
 		B83A42DB19A3B3C34275B6E1 /* libPods-RACStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E43E35C43F8835109A8D2C /* libPods-RACStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		8FD5E12A2022A7D700AB52E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FD5E12C2022A7D700AB52E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FD5E12D2022A7D700AB52E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FDFE4C82031348D0071DDB4 /* Section1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Section1Controller.h; sourceTree = "<group>"; };
+		8FDFE4C92031348D0071DDB4 /* Section1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section1Controller.m; sourceTree = "<group>"; };
 		F54756842EA8F177A6659FC3 /* Pods-RACStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACStudy/Pods-RACStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +76,7 @@
 		8FD5E11D2022A7D700AB52E5 /* RACStudy */ = {
 			isa = PBXGroup;
 			children = (
+				8FDFE4CB203134920071DDB4 /* sections */,
 				8FD5E11E2022A7D700AB52E5 /* AppDelegate.h */,
 				8FD5E11F2022A7D700AB52E5 /* AppDelegate.m */,
 				8FD5E1212022A7D700AB52E5 /* ViewController.h */,
@@ -84,6 +88,15 @@
 				8FD5E12D2022A7D700AB52E5 /* main.m */,
 			);
 			path = RACStudy;
+			sourceTree = "<group>";
+		};
+		8FDFE4CB203134920071DDB4 /* sections */ = {
+			isa = PBXGroup;
+			children = (
+				8FDFE4C82031348D0071DDB4 /* Section1Controller.h */,
+				8FDFE4C92031348D0071DDB4 /* Section1Controller.m */,
+			);
+			path = sections;
 			sourceTree = "<group>";
 		};
 		C541C8D34CE201BBC4DA2E5C /* Pods */ = {
@@ -218,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FD5E1232022A7D700AB52E5 /* ViewController.m in Sources */,
+				8FDFE4CA2031348D0071DDB4 /* Section1Controller.m in Sources */,
 				8FD5E12E2022A7D700AB52E5 /* main.m in Sources */,
 				8FD5E1202022A7D700AB52E5 /* AppDelegate.m in Sources */,
 			);
